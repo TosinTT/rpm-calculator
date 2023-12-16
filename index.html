@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="calculator">
+        <label for="N"> N</label>
+        <input type="number" id="N" name="N" min="0" />
+        <label for="cpt">Cpt</label>
+        <input type="number" id="cpt" name="cpt" min="0" />
+        <label for="rpm">Rpm</label>
+        <input type="number" id="rpm" name="rpm" min="0" />
+        <button class="calculate">calculate</button>
+      </div>
+      <div class="result">
+        <p>Answer = <span class="answer"></span></p>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
