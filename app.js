@@ -10,7 +10,7 @@ function handleInputChange() {
   const cptInt = cpt.value;
   const rpmInt = rpm.value;
   button.addEventListener("click", function () {
-    answer.innerHTML = nInt * cptInt * rpmInt;
+    answer.innerHTML = Math.round(nInt * cptInt * rpmInt);
   });
 }
 function resetInputValue() {
