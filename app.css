@@ -57,7 +57,7 @@ button:active {
 @media not all and (min-width: 768px) {
   .result {
     width: 80vw;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
   }
   .main {
     flex-direction: column;
